@@ -16,12 +16,8 @@ jobs:
         with:
           node-version: '16.13.2'
 
-      - name: Install and Build 🔧
-        run: | 
-          npm ci
-          npm run build        
       - name: Deploy 
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: release #The branch the action should deploy to.
+          branch: newversion #The branch the action should deploy to.
           folder: .
