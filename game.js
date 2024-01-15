@@ -13,39 +13,39 @@ const maximalQuestions = 4;
 
 let questions = [
   {
-    question: "What is the capital of Sweden ?",
-    choice1: "Oslo",
-    choice2: "Stockholm",
-    choice3: "Gothenburg",
-    choice4: "Malmoe",
-    answer: 2,
-  },
-
-  {
-    question: "What is the sweden currency?",
-    choice1: "Dollar",
-    choice2: "Euro",
-    choice3: "Swedish Krona",
-    choice4: "Swedish Mark",
-    answer: 3,
-  },
-
-  {
-    question: "What is Swedens highest mountain?",
-    choice1: "Keslaberget",
-    choice2: "Halti",
-    choice3: "Skardstinden",
-    choice4: "Kebnekaise",
+    question: "Föredrar Matilda katter eller hundar?",
+    choice1: "Katter mjau",
+    choice2: "Ingen av dom usch",
+    choice3: "Hundar helt klart",
+    choice4: "Bägge lika mycket!",
     answer: 4,
   },
 
   {
-    question: "What is Sweden in Swedish??",
-    choice1: "Svealand",
-    choice2: "Svorje",
-    choice3: "Sverige",
-    choice4: "Sweden",
+    question: "Vart bor Matilda?",
+    choice1: "Skärmarbrink",
+    choice2: "Sundbyberg",
+    choice3: "Midsommarkransen",
+    choice4: "Gubbängen",
     answer: 3,
+  },
+
+  {
+    question: "Hur gammal är Matilda?",
+    choice1: "40",
+    choice2: "32",
+    choice3: "29",
+    choice4: "18",
+    answer: 2,
+  },
+
+  {
+    question: "Hur många syskon har Matilda?",
+    choice1: "Tre",
+    choice2: "Inga!",
+    choice3: "Sju",
+    choice4: "Två",
+    answer: 4,
   },
 ];
 
