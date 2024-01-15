@@ -119,7 +119,7 @@ let interval = setInterval(function () {
   if (count === 0) {
     clearInterval(interval);
 
-    alert("You're out of time! Please try again !");
+    alert("Tiden har gått ut, var god spela igen!");
   }
 }, 1000);
 
